@@ -1,0 +1,12 @@
+{
+    "name": "dnsclients",
+    "description": "A role to group DNS clients together to apply DNS client configuration",
+    "json_class": "Chef::Role",
+    "default_attributes": {},
+    "override_attributes": {},
+    "chef_type": "role",
+    "run_list": [
+        "recipe[segulja_dns::client]"
+    ],
+    "env_run_lists": {}
+}
