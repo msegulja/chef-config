@@ -1,0 +1,14 @@
+{
+    "name": "baseline",
+    "description": "The default baseline role that sets a common run list across all servers",
+    "json_class": "Chef::Role",
+    "default_attributes": {},
+    "override_attributes": {},
+    "chef_type": "role",
+    "run_list": [
+        "recipe[segulja_base::default]",
+        "recipe[segulja_audit::default]",
+        "recipe[push-jobs]"
+    ],
+    "env_run_lists": {}
+}
