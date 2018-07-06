@@ -1,0 +1,13 @@
+{
+    "id": "users",
+    "root": {
+        "password": "$1$Rhyi2OGf$dDFo.ywxOZ86pRGF1VkxS."
+    },
+    "michael": {
+        "password": "$1$CNUDo1tq$gynOoIGV7mD9lgXzQmxhT1",
+        "userID": "777",
+        "groupID": "777",
+        "comment": "Michael Segulja",
+        "home": "/home/michael"
+    }
+}
