@@ -9,5 +9,12 @@
         "groupID": "777",
         "comment": "Michael Segulja",
         "home": "/home/michael"
+    },
+    "unixadm": {
+        "password": "",
+        "userID": "778",
+        "groupID": "778",
+        "comment": "Unix Administrator",
+        "home": "/home/unixadm"
     }
 }
