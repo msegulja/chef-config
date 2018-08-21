@@ -6,8 +6,10 @@
     "override_attributes": {},
     "chef_type": "role",
     "run_list": [
-        "recipe[segulja_audit::default]",
-        "recipe[push-jobs]"
+        "recipe[chef-client]",
+        "recipe[push-jobs]",
+        "recipe[segulja_baseline::default]",
+        "recipe[segulja_audit::default]"
     ],
     "env_run_lists": {}
 }
