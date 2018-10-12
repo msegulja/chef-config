@@ -91,6 +91,11 @@ function bootstrap_node() {
   echo
 }
 
+function run_chef() {
+  # ## Run the Chef Client on the specified node
+  knife ssh "name:$bhost" -x svc-chef 'sudo chef-client' -a hostname
+}
+
 # ## MAIN BODY # ##
 clear
 
@@ -99,3 +104,5 @@ echo
 
 collect_data
 bootstrap_node
+run_chef
+run_chef
